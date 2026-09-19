@@ -156,7 +156,7 @@ button {
 
     box-shadow: var(--shadow-small);
 
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(16px);
 }
 
@@ -987,19 +987,8 @@ button {
    ========================================================= */
 
 .reveal {
-    opacity: 0;
-
-    transform: translateY(24px);
-
-    transition:
-        opacity 700ms ease,
-        transform 700ms ease;
-}
-
-.reveal.visible {
     opacity: 1;
-
-    transform: translateY(0);
+    transform: none;
 }
 
 
